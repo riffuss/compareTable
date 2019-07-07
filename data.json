@@ -1,0 +1,83 @@
+{
+    "aliases": [
+        {
+            "alias": "Вид карты",
+            "name": "cardType",
+            "content": [
+                {
+                    "alias": "Название карты",
+                    "name": "cardName"
+                },
+                {
+                    "alias": "Персонализация",
+                    "name": "personal"
+                },
+                {
+                    "alias": "Дополнительная карта",
+                    "name": "cardPlus"
+                },
+                {
+                    "alias": "Индивидуальный дизайн",
+                    "name": "design"
+                }
+            ]
+        },
+        {
+            "alias": "Получение дохода",
+            "name": "getCash",
+            "content": [
+                {
+                    "alias": "Доход на остаток средств",
+                    "name": "cash"
+                }
+            ]
+        },
+        {
+            "alias": "Вознаграждение",
+            "name": "reward",
+            "content": [
+                {
+                    "alias": "Cashback",
+                    "name": "cashBack"
+                },
+                {
+                    "alias": "Баллы за покупки",
+                    "name": "points"
+                }
+            ]
+        }
+    ],
+    "values": [
+        {   
+            "cardImg": "",
+            "cardType":[
+                {
+                    "cashName": "Visa Classic"
+                },
+                {
+                    "personal": "Персонализация 1"
+                },
+                {
+                    "cardPlus": "Master Card"
+                },
+                {
+                    "design": "Да"
+                }
+            ],
+            "getCash":[
+                {
+                    "cash": "10000"
+                }
+            ],
+            "reward":[
+                {
+                    "cashback": "Cashback 10%"
+                },
+                {
+                    "points": "1000 баллов"
+                }
+            ]
+            
+        }
+    ]
+}
